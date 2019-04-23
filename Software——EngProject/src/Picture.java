@@ -3,14 +3,14 @@ import java.awt.Graphics;
 import javax.swing.JComponent;
 
 public class Picture extends JComponent{
-	Army black;
-	Army white;
+	ChessPieces black;
+	ChessPieces white;
 	
-	public Army getBlack() {
+	public ChessPieces getBlack() {
 		return black;
 	}
 	
-	public Army getWhite() {
+	public ChessPieces getWhite() {
 		return white;
 	}
 	

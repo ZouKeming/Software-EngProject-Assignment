@@ -1,5 +1,8 @@
 
-public class Constant {
+public enum Constant {
+	BLACK,
+	WHITE;
+	
 	static int EDGE = 100;
 	static int WIDTH = 100;
 	static int A = EDGE;
